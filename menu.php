@@ -7,7 +7,7 @@ if (isset($_SESSION['mesa_id'])) {
     $mesa_id = $_SESSION['mesa_id'];
 } else {
     // Redirigir a la página de selección de mesa si no hay un ID de mesa
-    header("Location: seleccionar_mesa.php");
+    header("Location: index.php");
     exit;
 }
 ?>
@@ -105,4 +105,3 @@ if (isset($_SESSION['mesa_id'])) {
     </div>
 </body>
 </html>
-Realizado por tomi6k

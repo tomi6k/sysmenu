@@ -7,7 +7,7 @@ if (isset($_POST['mesa_id'])) {
     $mesa_id = $_POST['mesa_id'];
 } else {
     // Redirigir a la página de selección de mesa si no hay un ID de mesa
-    header("Location: seleccionar_mesa.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -16,7 +16,7 @@ if (isset($_POST['total'])) {
     $total = $_POST['total'];
 } else {
     // Redirigir a la página de selección de mesa si no hay un total configurado
-    header("Location: seleccionar_mesa.php");
+    header("Location: index.php");
     exit;
 }
 ?>
@@ -91,4 +91,3 @@ if (isset($_POST['total'])) {
     </div>
 </body>
 </html>
-Realizado por tomi6k

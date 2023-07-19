@@ -17,4 +17,3 @@ if(!$conn){
 } # echo "<h1>Conectado correctamente</h1>";
 
 ?>
-Realizado por tomi6k
