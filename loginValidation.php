@@ -15,7 +15,7 @@ $filas = mysqli_num_rows($resultado);
 if ($filas > 0) {
     header("location: adminMenu.php");
 } else {
-    echo "Inicio de sesión incorrecto: <a href='#'>Intente de nuevo</a>";
+    echo "Inicio de sesión incorrecto: <a href='adminLogin.php'>Intente de nuevo</a><br><br><br>";
 }
 
 ?>

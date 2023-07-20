@@ -11,6 +11,7 @@
         <input type="password" name="contrasena" placeholder="Ingrese Contraseña" required> <br><br>
         <button type="submit"  class="large-button"> Iniciar </button>
     </form>
+    <a href="index.php">Volver al Inicio</a>
 </main>
 </div>
 
