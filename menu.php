@@ -102,6 +102,8 @@ if (isset($_SESSION['mesa_id'])) {
 
         ?>
 
+        <a href="index.php">Volver al Inicio</a>
+
     </div>
 </body>
 </html>

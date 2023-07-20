@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit" class="large-button">Seleccionar</button>
         </form>
         <p>SysMenu por <a href="https://www.tomi6k.github.io">tomi6k</a></p>
+        <p><a href="adminLogin.php">Menu Administracion</a></p>
     </div>
 </body>
 </html>
