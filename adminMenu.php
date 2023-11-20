@@ -107,6 +107,7 @@
 
         </table>
         <a href="index.php">Volver al inicio</a>
+        <a href="gestMenu.php">Modificar Menu</a>
     </div>
 </body>
 </html>
