@@ -86,7 +86,7 @@ if (isset($_SESSION['mesa_id'])) {
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $pedido = $_POST['plato'];
-            $precio = $_POST['precio'];
+            $precio = $_POST['precio']; 
 
             if (!empty($pedido) && !empty($precio)) {
                 // Almacenar el pedido en la base de datos asociado al ID de la mesa
